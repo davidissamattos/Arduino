@@ -1,0 +1,45 @@
+#######################################
+# Syntax Coloring Map For Matrix
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+GY80IMU			KEYWORD1
+compassData	    KEYWORD1
+accelData		KEYWORD1
+gyroData		KEYWORD1
+XAxis			KEYWORD1
+YAxis			KEYWORD1
+ZAxis			KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+#### Compass functions #####
+readCOMP			KEYWORD2
+configCOMP			KEYWORD2
+setScaleCOMP		KEYWORD2
+
+##### Accel functions ######
+readACCEL			KEYWORD2
+configACCEL			KEYWORD2
+setAxisGainsACCEL	KEYWORD2
+setAxisOffsetACCEL	KEYWORD2
+set_BWACCEL			KEYWORD2
+
+##### Gyro functions #######
+configGYRO			KEYWORD2
+
+##### Baro functions #######
+configBARO			KEYWORD2
+
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+Measurement_Continuous	LITERAL1
+Measurement_SingleShot	LITERAL1
